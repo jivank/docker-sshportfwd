@@ -3,7 +3,7 @@ MAINTAINER Jivan Kulkarni <jivank@gmail.com>
 
 
 RUN apt-get update && \
-    apt-get install -y openssh && \
+    apt-get install -y openssh-client && \
     apt-get clean
 
 VOLUME /root/.ssh
